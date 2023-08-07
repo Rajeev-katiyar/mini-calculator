@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <label for="first number">First number</label>
+    <input type="text" name="first_name" id="first_number" required placeholder="please enter the first number">
+    <label for="operation">Operations</label>
+    <select name="operation" id="opr">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <label for="second number">Second number</label>
+    <input type="text" name="second_number" id="second_number" placeholder="please enter the second number"><br>
+    <button onclick="cal()">Calculator</button>
+    <label for="result">Result</label>
+    <input type="text" id="res" name="result" readonly>
+
+</body>
+</html>
